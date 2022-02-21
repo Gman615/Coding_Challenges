@@ -4,8 +4,8 @@ import random
 randomNum = random.randrange(1,100)
 score = 50
 #print(randomNum)
-userNum = input("Hello, welcome to the Random Number game!\nPlease pick a number between 1 and 100")
-print("You now have 5 guesses, push any key to play")
+print("Hello, welcome to the Random Number game!\nYou have 5 guesses to figure out\nwhich number I am thinking of between 1 and 100")
+print("push any key to play")
 user1 = input("First guess?\n")
 userGuess1 = int(user1)
 if userGuess1 == randomNum:
